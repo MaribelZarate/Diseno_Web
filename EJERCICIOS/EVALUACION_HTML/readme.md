@@ -278,6 +278,50 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
   
 ![image](https://user-images.githubusercontent.com/91554777/164575358-76757050-5393-44a3-a075-0583e749b4e8.png)
 
+                        <!doctype html>
+                        <html>
+                         <head>
+                          <title>ejempolo de pagina </title>
+                         </head>
+                          <body>
+                           <header>
+                             <h1> ENCABEZADO NIVEL 1 </H1>
+                             <nav>
+                                <ul>
+                                   <li><a href="">ENLACE1</a></li>
+
+                                   <li><a href="">ENLACE2</a></li>
+
+                                   <li><a href="">ENLACE3</a></li>
+
+                                   <li><a href="">ENLACE4</a></li> 
+                                </ul> 
+                             </nav>
+                          </header>
+                          <main>
+                               <article>
+                                <h2> Encabezado nivel 2 </h2>
+                                <p> <b> Aqui va el texto del primer parrafo </b> </p>
+                                <p> Aqui va el texto del segundo parrafo </P> 
+                               </article>
+                               <aside>	
+                                <h2> Apartado </h2>
+                                <form>
+                                <legend> Elige una opcion </legend>
+                                 <input type= "radio"  name="Opcion1" value="Opcion1"/>Opcion1 <br>
+                                 <input type= "radio"  name="Opcion2" value="Opcion2"/>Opcion2 <br>
+                                 <input type= "radio"  name="Opcion3" value="Opcion3"/>Opcion3 <br>      
+                                 <input type= "submit" value= "Enviar"> <br>
+                               </aside>
+
+                          </main>
+                          <footer>
+                           <p> Seccion de Informacion de contacto, derechos de autor, etc. </p>
+                          </footer>	
+
+                         </body>
+                        </html>
+
   Debes tener en cuenta los siguientes requisitos:
   
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los
