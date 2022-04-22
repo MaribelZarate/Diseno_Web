@@ -266,7 +266,7 @@ Preguntas:
 24.¿Qué elemento HTML se usa para especificar un pie de página para un documentoo sección? (valor 0.24)
   
         
-        b) footer
+        a) botton
        
   
 25. ¿Cuál es el elemento HTML correcto para reproducir archivos de video? (valor 0.24)
