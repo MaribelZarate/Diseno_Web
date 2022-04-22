@@ -27,7 +27,9 @@ Preguntas:
 
 6. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
 
-* 
+* HTML: Estructura de la pagina WEB
+* CSS : Estilo a la pagina WEB
+* JS : La interacción entre en back end y el frond end utiliza variables artimeticas
 
 ## 2. HERRAMIENTAS PARA LA CREACIÓN DE PÁGINAS WEB
 
@@ -38,13 +40,31 @@ Preguntas:
 
 1. Describe al menos 5 características básicas de un editor de texto. (valor 1.0)
 
+* Cortar, copiar pegar
+* Dar formato a un texto
+* Bscar y Reemplazar
+* Deshacer y rehacer
+
 2. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+
+* Block de Notas
+* Visual Studio Code
+* Atom
 
 3. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
 
+* .html
+
 4. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
 
+ * .css
+
 5. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
+
+* jpg
+* png
+* gif
+* svg
 
 6. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
 distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacionados
@@ -52,7 +72,7 @@ a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
         a) Cierto
-        b) Falso
+       
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
 
@@ -62,33 +82,34 @@ Preguntas:
 
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
 
+* Etiqueta: Delimita el inicio y el fin de un documento HTML
+* Elemento: Representa algun tipo de estructura o semantica
+
 2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
-a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
-etiqueta
+
 
         a) Las etiquetas HTML semánticas dan un significado extra al contenido de la etiqueta
-        b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-        contenido de la página
-        c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-        información sobre el contenido de la etiqueta.
-        d) Es solo una palabra de moda sin sentido.
+     
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-        a) header
-        b) footer
-        c) nav
+        
         d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
-        a) mark
-        b) article
-        c) time
+      
         d) span
   
 5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
+
+* article : contenido autonomo
+* details : detalles adicionales
+* figure :  ilustraciones 
+* footer : pie de pagina
+* header :  informacion introductoria de la pagina
+* time : fecha
   
 Los siguientes ejemplos de elementos son incorrectos. Describe lo que está mal con cada
 uno, y luego escríbelo correctamente. (cada respuesta vale 0.3, en total suman 1.2)
