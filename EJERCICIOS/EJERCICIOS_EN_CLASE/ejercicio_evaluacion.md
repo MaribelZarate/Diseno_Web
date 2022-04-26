@@ -53,3 +53,26 @@
 
 
 ## AGREGA EL CSS NECESARIO A LA PÁGINA.
+                            body {font-family:font-family: 'Roboto', sans-serif;}
+                            body {background-color: rgb(112, 161, 112);}
+                            header {
+                                background-color:grey  ;}
+                            header h1 {color: antiquewhite;
+                            text-align: center;}
+                            header nav {
+                                background-color: antiquewhite;
+                                text-align: center;
+                            }
+                            main 
+                            article {background-color: #00b4d8;}
+                            article h2 {text-align: center;}
+                            article p {text-align: center;
+                            font-weight: bold;}
+                            aside {background-color: magenta;}
+                            aside h2 {text-align: right;}
+                            aside form {text-align: right;}
+
+                            footer {
+                            background-color: yellow;}
+                            footer p {text-align: center;}
+                            footer p {font-size: 1em;}
