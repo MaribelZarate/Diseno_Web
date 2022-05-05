@@ -172,22 +172,114 @@ Imagen paisaje de la Ciudad de México https://escuelasdecodigo.cdmx.gob.mx/wp-c
 -El texto alternativo para la primera imagen debe ser “Gobierno de la Ciudad de México”
 
       INGRESA AQUI EL CÓDIGO HTML
-      
+           <!doctype html>
+     <html>
+     <head>
+       <title>EDC CDMX></title>
+       <link rel="stylesheet" href="css/estilos.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      </head>
+     <body>
+      <header>
+       <img src="img/logo.svg" alt="logo"> <hr>
+
+
+       <nav>
+        <ul>
+         <li>Residentes </li>
+         <li>Negocios </li>
+         <li> Visitantes </li>
+         <li> Gobierno </li>
+        </ul>
+       </nav>
+
+      <div id="encabezado" >
+         <div class="texto">
+         <p><span>></span>APRENDE A PROGRAMAR EN LAS <span>ESCUEALAS DE CÓDIGO </span> DE LA CDMX </p>
+         </div>
+     </div>
+
+     <h2>¿Quién se puede inscribir? </h2>
+     <h3>Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana </h3>
+     <h4> *Menores de edad deberan entrar a las instalaciones acompañados de un adulto </h4>
+
+     </body>
+     </html>
       
       
       
       INGRESA AQUI EL CSS
+                * {
+          margin 0 ;
+          padding 0 ;
+          font-family: 'Roboto', sans-serif;
+          } 
+
+          ul {
+          color: green ;
+          display: flex;
+          justify-content:flex-end;
+          list-style-type: none;
+
+          }
+
+          li{
+              margin-right: 20px;
+          }
+
+
+          h2{
+              color: goldenrod;
+              text-align: center;
+          }
+
+          h3, h4 {
+              text-align: center;
+          }
+
+          #encabezado {
+              display: flex;
+              align-items: center;
+              height: 70vh;
+              background: url("../img/hero.jpg");
+              background-position: center;
+              background-size: cover;
+
+          }
+
+          .texto {
+              color: #fff;
+              width: 50%;
+              font-size: 80px;
+              text-align: right;
+
+
+          }
+
+          span {
+              font-weight: bolder;
+          }
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+           
 Ingresa el enlace a tu página del proyecto final
 
-© 2022 GitHub, Inc.
-Términos
-Privacidad
-Seguridad
-Estado
-Documentos
-Póngase en contacto con GitHub
-Precios
-API
-Capacitación
-Blog
-Acerca de
+https://maribelzarate.github.io/proyecto-final-/
+
